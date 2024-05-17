@@ -1,0 +1,41 @@
+img {
+  width: 100%;
+  max-width: 100%;
+  display: block;  
+}
+.logo{
+  width: 100px;
+  border-radius: 3px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  display: block;
+  
+  
+}
+.main {
+  display: flex;
+  height: calc(100vh - 130px);
+  justify-content: center;
+  align-items: center;
+}
+
+.main .container-main p {
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.3em;
+}
+
+.container-main {
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1300px;
+  gap: 100px;
+  
+}
+p:hover{
+  transition: color 0.2s;
+  color: #f2668b;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

@@ -1,0 +1,42 @@
+ul {
+  list-style: none;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  display: flex;
+  max-width: 1024px;
+  margin: 0px auto;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.header {
+  background: #C2F2F2;
+  height: 130px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.menu {
+  display: flex;
+  gap: 1rem;
+}
+.menu a {
+  display: block;
+  background-color: #049DD9;
+  padding: 17px 40px;
+  border-radius: 3px;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.menu a:hover {
+  background-color: #F2668B;
+  transition: background-color 0.3s ease;
+  transform: rotate(12deg);
+
+}

@@ -1,0 +1,23 @@
+body{
+    background-color:  #C4F2EE;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+h1{
+    color: Black;
+
+    
+}
+a{
+    color:black;
+    background-color: #049DD9;
+    padding: 0px 20px 5px;
+    border-radius: 3px;
+    text-decoration: none;
+    
+
+}
+a:hover{
+    background-color: #F2668B;
+}
